@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+
+# FastAPI model artifacts
+ecommerce-recommendation-system/backend/models/*.pkl
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Build outputs
+*.log
+dist/
+coverage/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
