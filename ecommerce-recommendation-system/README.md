@@ -117,3 +117,17 @@ npm run dev
 
 ## 10. 毕设说明
 本项目具备功能完整性、可视化展示、算法实现、模型训练接口和清晰代码结构，可作为本科毕业设计基础版本，后续可继续扩展到深度学习推荐、在线学习和A/B测试。
+
+## 11. GitHub 部署
+1. 在 GitHub 创建空仓库（建议同名：`ecommerce-recommendation-system`）。
+2. 本地执行：
+```bash
+git remote add origin https://github.com/<你的用户名>/ecommerce-recommendation-system.git
+git branch -M main
+git push -u origin main
+```
+3. 如果已有远程：
+```bash
+git remote remove origin
+git remote add origin <你的仓库地址>
+```
